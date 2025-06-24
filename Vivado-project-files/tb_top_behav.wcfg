@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,318.908333 us"></ZoomStartTime>
+      <ZoomEndTime time="10,357.508334 us"></ZoomEndTime>
+      <Cursor1Time time="10,351.075000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/tb_top/clk_100">
+      <obj_property name="ElementShortName">clk_100</obj_property>
+      <obj_property name="ObjectShortName">clk_100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/spi_clk">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/spi_mosi">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/spi_cs">
+      <obj_property name="ElementShortName">spi_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_cs[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/led">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/led_r">
+      <obj_property name="ElementShortName">led_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/led_g">
+      <obj_property name="ElementShortName">led_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/led_b">
+      <obj_property name="ElementShortName">led_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_cs">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pmod_cs</obj_property>
+      <obj_property name="ObjectShortName">pmod_cs</obj_property>
+      <obj_property name="label">cs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_sclk">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pmod_sclk</obj_property>
+      <obj_property name="ObjectShortName">pmod_sclk</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_mosi">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pmod_mosi</obj_property>
+      <obj_property name="ObjectShortName">pmod_mosi</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">mosi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_dc">
+      <obj_property name="ElementShortName">pmod_dc</obj_property>
+      <obj_property name="ObjectShortName">pmod_dc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_res">
+      <obj_property name="ElementShortName">pmod_res</obj_property>
+      <obj_property name="ObjectShortName">pmod_res</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_vbat">
+      <obj_property name="ElementShortName">pmod_vbat</obj_property>
+      <obj_property name="ObjectShortName">pmod_vbat</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/pmod_vdd">
+      <obj_property name="ElementShortName">pmod_vdd</obj_property>
+      <obj_property name="ObjectShortName">pmod_vdd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/spi_miso">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/dut/PM_CLKDIV_1M/clkin">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/dut/PM_CLKDIV_1M/clkout">
+      <obj_property name="ElementShortName">clkout</obj_property>
+      <obj_property name="ObjectShortName">clkout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/dut/PM_CLKDIV_1M/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_top/dut/PM_CLKDIV_1M/COUNT">
+      <obj_property name="ElementShortName">COUNT</obj_property>
+      <obj_property name="ObjectShortName">COUNT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/dut/PM_CLKDIV_1M/clk_int">
+      <obj_property name="ElementShortName">clk_int</obj_property>
+      <obj_property name="ObjectShortName">clk_int</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/dut/PM_OLED/req_data">
+      <obj_property name="ElementShortName">req_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_data[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../Xilinx-Vivado/2025.1/data/rsb/busdef" --include "../../../../../DigilentArty_PMOD-OLED-bitmap.ip_user_files/ipstatic" \
+"tb_top_func_impl.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../Xilinx-Vivado/2025.1/data/rsb/busdef" --include "../../../../../DigilentArty_PMOD-OLED-bitmap.ip_user_files/ipstatic" \
+"../../../../../DigilentArty_PMOD-OLED-bitmap.srcs/sources_1/new/tb_top.sv" \
+
+# Do not sort compile order
+nosort
